@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    tools:context=".PassengerInfo">
+
+
+    <CheckBox
+        android:id="@+id/mencb"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="22dp"
+        android:layout_marginTop="97dp" />
+
+    <ImageView
+        android:id="@+id/men"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="55dp"
+        android:layout_toRightOf="@+id/mencb"
+        app:srcCompat="@drawable/men" />
+
+    <CheckBox
+        android:id="@+id/womencb"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/mencb"
+        android:layout_alignBottom="@+id/mencb"
+        android:layout_marginLeft="53dp"
+        android:layout_toRightOf="@+id/men" />
+
+    <ImageView
+        android:id="@+id/women"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/men"
+        android:layout_marginLeft="24dp"
+        android:layout_toRightOf="@+id/womencb"
+        app:srcCompat="@drawable/women" />
+
+    <CheckBox
+        android:id="@+id/kidscb"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/men"
+        android:layout_alignTop="@+id/kids"
+        android:layout_marginTop="44dp" />
+
+    <ImageView
+        android:id="@+id/kids"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/men"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="66dp"
+        app:srcCompat="@drawable/kids" />
+
+    <com.dd.processbutton.FlatButton
+        android:id="@+id/contbt2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/kids"
+        android:layout_marginTop="38dp"
+        android:background="@color/colorPrimary"
+        android:text="Continue"
+        android:textColor="#ffffff" />
+
+</RelativeLayout>

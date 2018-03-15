@@ -1,0 +1,57 @@
+<resources>
+    <string name="app_name">Note MyTrip</string>
+    <string name="tab_text_1">Essentials</string>
+    <string name="tab_text_2">Clothing</string>
+    <string name="tab_text_3">Hygiene</string>
+    <string name="tab_text_4">Health</string>
+    <string name="tab_text_5">Documents</string>
+    <string name="action_settings">Settings</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="clothing">CLOTHING</string>
+    <string name="documents">DOCUMNETS</string>
+    <string name="essentials">ESSENTIALS</string>
+    <string name="health">HEALTH</string>
+    <string name="hygiene">HYGIENE</string>
+
+
+    <array name="health">
+        <item>Allergy pills</item>
+        <item>Asthma Inhaler</item>
+        <item>Bandaid</item>
+        <item>Ear drops</item>
+        <item>First aid kit</item>
+        <item>Pain relievers</item>
+        <item>Tape</item>
+        <item>Vitamins</item>
+    </array>
+
+    <array name="Documents">
+        <item>Cash</item>
+        <item>Certificates</item>
+        <item>Credit and ATM cards</item>
+        <item>ID</item>
+        <item>Passport</item>
+        <item>Wallet</item>
+        <item>Booking confirmations</item>
+    </array>
+
+    <string name="hello">Hello World, MyAndroidAppActivity!</string>
+    <string name="chk_ios">IPhone</string>
+    <string name="chk_android">Android</string>
+    <string name="chk_windows">Windows Mobile</string>
+    <string name="btn_display">Display</string>
+
+
+    <string name="myTripList">My Trips</string>
+    <string name="enterTrip">Enter Trip Name</string>
+    <string name="title_activity_my_triplist">Note My Trip</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Note My Trip</string>
+    <string name="nav_header_subtitle"></string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="title_activity_choose_pnr">ChoosePNR</string>
+
+</resources>
